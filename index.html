@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout - HW3</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1 id="main-heading">Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects/Work</a></li>
-                <li><a href="about.html">About/Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section class="card">
-            <h2>Hello, I'm Dajonai</h2>
-            <p>Welcome to my professional portfolio. I am an Information Technology student building my skills in web development and technology solutions.</p>
-        </section>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <h1>My Redesigned Portfolio</h1>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
 
-        <section class="card">
-            <h2>Featured Highlight</h2>
-            <p>Explore my recent work and academic projects across IT and development.</p>
-        </section>
-    </main>
+  <!-- Main Content Area -->
+  <main class="content-container">
+    <section class="sidebar">
+      <h2>Quick Links</h2>
+      <ul>
+        <li>Link 1</li>
+        <li>Link 2</li>
+        <li>Link 3</li>
+      </ul>
+    </section>
 
-    <footer>
-        <p>&copy; 2026 Dajonai Rohlf. All rights reserved.</p>
-    </footer>
+    <section class="articles">
+      <h2>Main Content</h2>
+      <div class="card-grid">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2026 My Website</p>
+  </footer>
+
 </body>
 </html>
